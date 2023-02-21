@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-set -x
-
 source /verbis/functions.sh
 
 verbis_defaults_main
