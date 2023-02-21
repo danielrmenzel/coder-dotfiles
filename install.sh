@@ -7,5 +7,4 @@ verbis_defaults_rust
 
 verbis_symlink_cache_dir git
 
-sudo apt update && sudo apt install -y stow
 stow -t ~ gitconfig
