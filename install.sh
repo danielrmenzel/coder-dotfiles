@@ -7,4 +7,10 @@ verbis_defaults_rust
 
 verbis_symlink_cache_dir git
 
+# If Samply.Beam not yet present, clone the develop branch
+verbis_clone github.com:samply/beam develop
+
+# Same for the Bridgehead -- but here, clone the default branch
+verbis_clone github.com:samply/bridgehead
+
 stow -t ~ gitconfig
