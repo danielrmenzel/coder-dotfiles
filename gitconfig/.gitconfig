@@ -3,7 +3,3 @@
 	email = tobias.kussel@dkfz-heidelberg.de
 [init]
 	defaultBranch = main
-[http]
-	proxy = http://www-int2.inet.dkfz-heidelberg.de:3128
-[https]
-	proxy = http://www-int2.inet.dkfz-heidelberg.de:3128
