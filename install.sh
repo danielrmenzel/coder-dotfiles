@@ -2,10 +2,10 @@
 
 source /verbis/functions.sh
 
-mkdir -p ~/git ~/.ssh
+verbis_defaults_main
+verbis_defaults_rust
 
-ssh-keyscan github.com >> ~/.ssh/known_hosts
+verbis_symlink_cache_dir git
 
 sudo apt update && sudo apt install -y stow
 stow -t ~ gitconfig
-install_vscode_extensions rust-lang.rust-analyzer vadimcn.vscode-lldb serayuzgur.crates
